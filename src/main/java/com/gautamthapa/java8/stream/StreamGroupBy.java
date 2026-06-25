@@ -16,5 +16,6 @@ public class StreamGroupBy {
 
         System.out.println("Employees grouped by department:");
         employeeGroupingByDepartment.forEach((key, value) -> System.out.println(key + " : " + value));
+
     }
 }
